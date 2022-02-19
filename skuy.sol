@@ -3,7 +3,7 @@
 pragma solidity ^0.8.7;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
-import "contracts/ownable.sol";
+import "ownable.sol";
 
 contract SkuyNFT is ERC721Enumerable, Ownable {
     using Strings for uint256;
